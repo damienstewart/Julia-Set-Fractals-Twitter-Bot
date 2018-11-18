@@ -41,10 +41,10 @@ if __name__ == "__main__":
 	bitmap.save(os.path.dirname(full_path) + "/img/" + filename)
 	
 	#enter the corresponding information from your Twitter application:
-	CONSUMER_KEY = 'SkU4cZPJDYwOHMZZvPUwoDih8'
-	CONSUMER_SECRET = 'i4xyKPMpvyG6gIpNVYLoAxEnOD6Ys5uJRf87aZzemnwLu95EX6'
-	ACCESS_KEY = '1063954181076086784-THjMrFHNqS80TjJKmifVU7FYoXIyLy'
-	ACCESS_SECRET = 'WtTOr8CKqwixhAg8HznPAIMPTNXBqjf25V7zY411n0P8n'
+	CONSUMER_KEY = ''
+	CONSUMER_SECRET = ''
+	ACCESS_KEY = ''
+	ACCESS_SECRET = ''
 	auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 	auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 	api = tweepy.API(auth)
