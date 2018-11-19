@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from PIL import Image, ImageDraw, ImageFont
 import random
 import tweepy
